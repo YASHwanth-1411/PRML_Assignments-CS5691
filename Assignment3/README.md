@@ -1,6 +1,6 @@
 ### Dataset
 
-The "spam_classifier.py" script is designed to train on the "emails.csv" file. If you intend to train it on a different dataset, ensure to perform the following steps:
+The "spam_classifier.py" script is designed to train on the "emails.csv" file. If you intend to train it on a different dataset(which is not recommended as the hyper parameters are tuned for this dataset), ensure to perform the following steps:
 
 1. Rename the dataset file to "emails.csv".
 2. Modify the headers of the CSV file to "text" and "spam". The "text" column should contain the email content, while the "spam" column should contain a binary value indicating whether the email is spam (1) or not spam (0).
