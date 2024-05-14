@@ -1,4 +1,4 @@
-### Dataset
+## Dataset
 
 The "spam_classifier.py" script is designed to train on the "emails.csv" file. If you intend to train it on a different dataset(which is not recommended as the hyper parameters are tuned for this dataset), ensure to perform the following steps:
 
