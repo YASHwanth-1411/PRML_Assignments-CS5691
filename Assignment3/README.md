@@ -10,3 +10,6 @@ The emails to be tested should be placed within a folder named "test", located i
 
 ## Output
 The predicted outputs (1/0) for the emails in the test directory will be printed individually in the output stream, each on its own line. Additionally, the predictions made by each algorithm—Naive Bayes, SVM, and Logistic Regression—will be written to separate files named "predictions.txt".
+
+### Note
+The initial run of the file will take longer because it involves training the model. However, subsequent runs will be faster since the script utilizes pre-trained models, resulting in quicker output generation.
